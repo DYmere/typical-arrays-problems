@@ -3,7 +3,7 @@ if (!array || array.length == 0) {
   return 0;
 }
 else {
-  return array.sort((a, b) => a - b)[0]
+  return array.sort((a, b) => a - b)[0];
 }
 }
 
@@ -12,7 +12,7 @@ if (!array || array.length == 0) {
   return 0;
 }
 else {
-  return array.sort((a, b) => a - b)[array.length-1]
+  return array.sort((a, b) => a - b)[array.length-1];
 }
 }
 
@@ -22,7 +22,7 @@ if ( !array || array.length == 0) {
 }
 else {
   let s=0;
-  array.forEach(i => s += i)
-  return s/array.length
+  array.forEach(i => s += i);
+  return s/array.length;
 }
 }
